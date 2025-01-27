@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SMS Spam Detection</title>
+</head>
+<body>
+    <h1>SMS Spam Detection</h1>
+    <form id="smsForm">
+        <label for="smsInput">Enter SMS Message:</label>
+        <textarea id="smsInput" required></textarea>
+        <button type="submit">Check for Spam</button>
+    </form>
+
+    <div id="result" style="display:none;">
+        <h2>Classification Result:</h2>
+        <p id="classification"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
